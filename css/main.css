@@ -279,6 +279,11 @@ hero
   width: 1520px;
   background: url(../josef-g8a5fb5900_1920.jpg) fixed no-repeat;
 }
+.all2{
+  height: 110vh;
+    width: 1520px;
+    background: url(../josef-g8a5fb5900_1920.jpg) fixed no-repeat;
+}
 .style{
   color: white;
     text-align: center;
@@ -501,47 +506,7 @@ background-color: black;
 #main2 {
   padding: 16px;
 }
-.all2{
-height: 140vh;
-  width: 98vw;
-  position: relative;
-  margin-bottom: 2rem;
-  background-color: silver;
-  border-radius: var(--borderRadius);
-  padding-left: 0;
-  padding-right: 0;
-  animation-name: move;
-  animation-duration: 8s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-delay: 5s;
-}
 
-@keyframes move {
-  0% {
-    background: url(../news_8j9ztdssi3.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-
-  25% {
-    background: url(../20190601135314982.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  50% {
-    background: url(../20180113233318008.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  100% {
-    background: url(../أين_يقع_مسجد_عمرو_بن_العاص.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-} 
 @media only screen and (max-width: 768px){
   :root{
     max-width: 350px;
@@ -552,18 +517,22 @@ height: 140vh;
   .place{
   margin-left: 150px;;
   }
-  .all {
+  .all  {
       height: 1000px;
       max-width: 700px;
-      background: url(../josef-g42fc88e2f_192055555.jpg) fixed;
+      background: url(../josef-g42fc88e2f_1920.jpg) fixed;
 }
+ .all2 {
+   height: 1000px;
+   max-width: 1280px;
+   background: url(../josef-g42fc88e2f_1920.jpg) fixed no-repeat;
+ }
 .box1 {
   border: 2px black solid;
   border-radius: 1.5rem;
   border-style: double;
   background-color: whitesmoke;
 }
-
 .box1:hover {
   transition: 3s;
   background-color: #222;

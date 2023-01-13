@@ -193,25 +193,25 @@ nav .links ul li a {
 
   @keyframes move {
     0% {
-      background: url(../news_8j9ztdssi3.jpg);
+      background: url(./news_8j9ztdssi3.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
 
     25% {
-      background: url(../20190601135314982.jpg);
+      background: url(./20190601135314982.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
 
     50% {
-      background: url(../20180113233318008.jpg);
+      background: url(./20180113233318008.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
 
     100% {
-      background: url(../أين_يقع_مسجد_عمرو_بن_العاص.jpg);
+      background: url(./أين_يقع_مسجد_عمرو_بن_العاص.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -315,8 +315,8 @@ nav .links ul li a {
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 1rem;
+          box-shadow: rgba(123, 12, 12, 0.24) 0px 3px 8px;
+  border-radius: 1.5rem;
 }
 
 .services .cards .card .icon {
@@ -583,7 +583,7 @@ button {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content:center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .services .cards .card {
@@ -600,8 +600,8 @@ button {
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 1rem;
+  box-shadow: rgba(123, 12, 12, 0.24) 0px 3px 8px;
+  border-radius: 1.5rem;
 }
 .destination {
   margin: 5rem 0;
